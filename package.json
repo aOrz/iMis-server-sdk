@@ -1,11 +1,23 @@
 {
-  "name": "iMis-server-sdk",
+  "name": "imis-server-sdk",
   "version": "0.0.1",
   "description": "iMis-server-sdk",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4013465w/iMis-server-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/4013465w/iMis-server-sdk/issues"
+  },
+  "homepage": "https://github.com/4013465w/iMis-server-sdk#readme",
   "author": "rememberwz",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
 }
